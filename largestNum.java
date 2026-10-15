@@ -1,0 +1,17 @@
+class  largestNum
+{
+	public static void main(String[] args) 
+	{
+		int num[] = {6, 4, 8, 30, 9, 7};
+		
+		int n = num.length;
+		int max = Integer.MIN_VALUE;
+		
+		for(int i=0; i<n; i++){
+			if(num[i] > max)
+				max = num[i];
+			
+		}
+		System.out.println("largest Number is: " + max);
+	}
+}

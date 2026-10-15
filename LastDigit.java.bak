@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+class FirstDigit 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.print("Enter the numbers: ");
+		int n = scan.nextInt();
+		
+		while(n>9)
+		{
+			int lastDigit = n%10;
+			n/=10;
+		}
+		System.out.print("First Digit is: "+ n);
+		
+	}
+}

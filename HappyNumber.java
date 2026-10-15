@@ -1,0 +1,28 @@
+class HappyNumber 
+{
+	public static void main(String[] args) 
+	{
+		int num = 3;
+	
+		
+		while(num != 1){
+			int sum = 0;
+			int temp = num;
+			while(temp > 0)
+			{
+				int ld = temp % 10;
+				int	sq = ld * ld;
+				
+				sum = sum + sq;
+				
+				temp/=10;
+			}
+			num = sum;
+			
+		}
+			if(num == 1)
+				System.out.println("Its a Happy Number");
+			else
+				System.out.println("Its not a Happy Number");
+	}
+}

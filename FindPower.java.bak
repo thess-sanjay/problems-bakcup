@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+class FindPower
+{
+	static Scanner scan = new Scanner(System.in);
+	
+	public static int powerNum(int b, int p)
+	{
+		int mul = 1;
+		
+		for(int i=1; i<=p; i++)
+		{
+			mul *= b;
+		}
+		return mul;
+	}
+	
+	
+	public static void main(String[] args) 
+	{
+		System.out.print("Enter the Base Number: ");
+		int b = scan.nextInt();
+		System.out.print("Enter the Power Number: ");
+		int p = scan.nextInt();
+		
+		System.out.println(powerNum(b,p);
+	}
+}

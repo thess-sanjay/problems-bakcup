@@ -1,0 +1,32 @@
+class Calculator
+{
+	public static void add(int a, int b)
+	{
+		int sum = a + b;
+		System.out.println("Addition is: "+ sum);
+	}
+	public static void sub(int a, int b)
+	{
+		int subtract = a - b;
+		System.out.println("Subtraction is: "+ subtract);
+	}
+	public static void mul(int a, int b)
+	{
+		int multiplication = a * b;
+		System.out.println("Multiplication is: "+ multiplication);
+	}
+	public static void div(int a, int b)
+	{
+		int division = a / b;
+		System.out.println("Division is: " + division);
+	}
+	
+	public static void main(String[] args)
+	{
+		add(100, 200);
+		sub(200, 100);
+		mul(10, 10);
+		div(100, 20);
+		
+	}
+}

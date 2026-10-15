@@ -1,0 +1,25 @@
+class  DuckNum
+{	
+	public static void main(String[] args) 
+	{
+		int count = 0;
+		int n = 53200345;
+		
+		while(n>0)
+		{
+			int ld = n % 10;
+			
+			if(ld == 0)
+				count++;
+			n/=10;
+				
+		}
+			
+		if(count > 0)
+		{
+			System.out.println("Its a Duck Number");
+		}else{
+			System.out.println("Its not a Duck Number");
+		}
+	}
+	}

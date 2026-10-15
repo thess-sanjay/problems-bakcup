@@ -1,0 +1,17 @@
+class Arrays1 
+{
+	public static void main(String[] args) 
+	{
+		String colors[] = {"red", "white", "black", "yellow", "blue"};
+		
+		int n = colors.length;
+		for(int i=0; i<n; i++){
+			System.out.println(colors[i]);	
+		}
+		
+		System.out.println("Reversing Order: ");
+		for(int j=n-1; j>=0; j++){
+			System.out.println(colors[j]);	
+		}
+	}
+}
